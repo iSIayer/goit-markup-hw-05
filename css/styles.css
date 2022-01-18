@@ -601,8 +601,21 @@ main .doing {
   transform: translate(-50%, -50%);
 }
 
+.btn-modal {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  display: flex;
+  padding: 6px;
+  cursor: pointer;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
 .icon-close {
   display: inline-block;
   fill: currentColor;
+  
 
 }
